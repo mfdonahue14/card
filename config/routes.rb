@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-	get '/index', :to => redirect('/index.html')
+	get '/test', :to => redirect('/test.html')
 end
