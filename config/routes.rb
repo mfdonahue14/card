@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-	root 'application#home'
+	get '/index', :to => redirect('/index.html')
 end
