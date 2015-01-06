@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-	get '/' do
-  redirect '/index.html'
+root :controller => 'static', :action => '/' 
 end
 end
