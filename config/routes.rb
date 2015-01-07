@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-root :controller => 'static', :action => '/' 
+ 	root 'application#home'
 end
 end
